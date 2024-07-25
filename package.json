@@ -10,5 +10,17 @@
   },
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "name": "eslint-prettier-airbnb-style-guide-nodejs-config",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "DaliHamrouni",
+  "license": "ISC",
+  "description": "A comprehensive ESLint configuration integrating Prettier and following the Airbnb style guide for Node.js projects."
 }
